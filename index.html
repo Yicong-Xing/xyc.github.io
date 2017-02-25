@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!--文档类型说明-->
+<html> <!--这个元素包含了整改页面的内容,有时也被称作根元素-->
+    <head> <!--这个元素包含了所有和页面相关的信息,但不会被用户所看到,这里面包括像想被搜索引擎搜索到的关键字（keywords）和页面描述，CSS样式表和字符编码声明等等。-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <!--<link> 标签定义文档与外部资源的关系。
+            <link> 标签最常见的用途是链接样式表。
+            link元素是空元素,它仅包含属性;它只存在于head部分,可以出现任何次数。-->
+        <meta charset="utf-8"> <!--这个元素指定了你的文档需要使用的字符编码，像 UTF-8 ，它包括了非常多人类已知语言的字符。基本上 UTF-8 可以处理任何文本内容。我们没有任何理由不去设定字符编码，而且也可以避免以后可能出现的问题。-->
+        <title>My test page</title>  <!--这个元素设置了页面的标题，标题显示在浏览器标签页上，而且在你将网页添加到收藏夹或喜爱中时将作为默认名称。-->
+    </head>
+    <body> <!--这个元素包含了你想被用户看到的内容，不管是文本，图像，视频，游戏，可播放的音轨或是其他内容。-->
+        <h1>测试页面标题1</h1> <!--标题元素允许你指定内容的标题和子标题,HTML中包含6个级别。-->
+        <img src="images/1.jpg" alt="My test image"> <!--图像元素,它将图像嵌入到元素所在位置。-->
+        <p class='测试组class'>第一个测试页面,包含一张图片,下面将是一列表</p> <!-- <p> 元素是用来指定段落的,你可以用它来指定常规的文本内容。-->
+        <ul> <!--无序列表,下面接<li>元素,其中的每个项目组成的列表。无序列表元素为<ol> -->
+            <li>坚持</li>
+            <li>自信</li>
+            <li>加油</li>
+        </ul>
+        <p>编辑于<strong>2017年2月23日</strong></p> <!--嵌套元素,将一个元素置于其他元素之中.这个例子中<strong>元素起到特别强调作用.-->
+        <a href="http://baike.baidu.com/link?url=E2xohqDR4KCthyKnpspsfoOSb0AYdM8ZTOkoxUVA4ZyghLWdyGTTkQsJoqAtL8NbuN13ocIxatVyaejfaBudtaM2IqszdRfggJejghBQQRy">点这里跳转到hypertext reference百科词条</a>
+        <!-- <a> 标签定义超链接，用于从一张页面链接到另一张页面。
+             <a> 元素最重要的属性是 href 属性，它指示链接的目标。-->
+        <button>change user</button> <!-- 标签定义一个按钮 -->
+        <script src='scripts/main.js'></script> <!-- script元素将JavaScript引入页面 -->
+    </body>
+</html>

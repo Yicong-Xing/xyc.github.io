@@ -1,0 +1,38 @@
+html{ /* <html>是整改页面的父元素，因此此规则为选择整改页面 */
+    font-size: 10px; /* 设定字体像素大小为10px */
+    font-family: '微软雅黑';
+    /* font-family: 'Roboto Slab', serif;  /* 设定字体，在属性值中直接输入字体名称即可 */
+    background-color: blue; /* 背景颜色设定 */
+}
+
+body{
+    width: 800px; /* 强制页面保持800px宽度 */
+    margin: 0px auto; /* 外边距设定,当你在 margin 或 padding 中设置两个值时，第一个值代表元素的上方和下方（在这个例子中设置为 0），而第二个值代表左边和右边（在这里，auto 是一个特殊的值，意思是水平方向上左右对称）。你也可以使用一个，三个或四个值。 */
+    background-color: #996633; /* 背景颜色设定 */
+    padding: 0px 20px 20px 20px; /* 给内边距设置了四个值来让内容四周产生一点空间。值以上、右、下、左的顺序排列。 */
+    border: 5px solid black; /* 简单地为页面四周设置了5像素的黑色实线边框。 */
+}
+
+h1{
+    margin: 0px auto; /* 外边距设定,用以覆盖掉浏览器提供给<h1>的默认样式 */
+    padding: 20px 0px; /* 内边距设置上下20px,左右0px */
+    color: #006600;
+    text-shadow: 10px 3px 1px black; /* 阴影属性,依次为水平,垂直,模糊,颜色值. */
+    font-size: 60px;
+    text-align: center; /* text-align 属性规定元素中的文本的水平对齐方式。 */
+}
+
+img{
+    display: block; /*设置元素的显示模式（暂时不用担心这部分内容）,为了使图像有外边距，我们必须使用 display: block 将其改成块级元素。 */
+    margin: 0px auto; 
+}
+
+p,li{
+    font-size: 16px; /* 字体尺寸 */
+    line-height:2;  /* 设置行高 */
+    letter-spacing:1px; /* 字符间距 */
+}
+
+a:hover{ /* 伪类选择符,在特殊状态下选定某个元素,比如前面这个选择符指在鼠标悬停状态下选择元素<a> */
+    color:black;
+}
